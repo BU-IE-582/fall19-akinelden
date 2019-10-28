@@ -14,5 +14,5 @@ This is the IE423 project site of the Group 9.
 Click to see [project description](Part1/description.pdf)
 
 Jupyter notebooks:
-*   [Part A](Part1/Part1_soru12)
+*   [Part A](Part1/Part1_A)
 *   [Part B](Part1/)
