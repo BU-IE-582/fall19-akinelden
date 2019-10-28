@@ -11,8 +11,8 @@ This is the IE423 project site of the Group 9.
 *   [Kadir Pehlivan](https://github.com/kdrsss)
 
 ## Project Part 1
-Click to see [project description](IE423_Fall19_ProjectPart1.pdf)
+Click to see [project description](Part1/description.pdf)
 
 Jupyter notebooks:
-*   [Part A](Part1_soru12)
-*   [Part B]()
+*   [Part A](Part1/Part1_soru12)
+*   [Part B](Part1/)
