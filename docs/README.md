@@ -5,7 +5,7 @@ This is the IE423 Project site of the Group 9.
 
 **Group members:**
 
-*   [Mehmet Akın Elden](https://github.com/akinelden)
+*   [M. Akın Elden](https://github.com/akinelden)
 *   [Berkay Zühre](https://github.com/berkayzuhre)
 *   [Erdem Çağrı Utku](https://github.com/ErdemCagriUtku)
 *   [Muhammed Karakurt](https://github.com/muhkarakurt1)
