@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Part1_soru12</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Part1_A</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11807,7 +11807,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-1">Question 1<a class="anchor-link" href="#Question-1">&#182;</a></h3><p>We read the image as an "image object". To be able to apply matrix operations on it we convert it to a numpy array.</p>
+<h2 id="Question-1">Question 1<a class="anchor-link" href="#Question-1">&#182;</a></h2><p>We read the image as an "image object". To be able to apply matrix operations on it we convert it to a numpy array.</p>
 <p>With the ".shape" function we can see that it has dimensions (512*512*3).</p>
 
 </div>
@@ -11947,7 +11947,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-2">Question 2<a class="anchor-link" href="#Question-2">&#182;</a></h3><p>Structure of our variable is a <em>three dimensional array</em>.</p>
+<h2 id="Question-2">Question 2<a class="anchor-link" href="#Question-2">&#182;</a></h2><p>Structure of our variable is a <em>three dimensional array</em>.</p>
 <p>Dimension of our variable is 512x512x3 which is 786432.</p>
 
 </div>
@@ -11990,7 +11990,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-2.a">Question 2.a<a class="anchor-link" href="#Question-2.a">&#182;</a></h4><p>Image can be displayed from its pixels array using below code:</p>
+<h3 id="Question-2.a">Question 2.a<a class="anchor-link" href="#Question-2.a">&#182;</a></h3><p>Image can be displayed from its pixels array using below code:</p>
 
 </div>
 </div>
@@ -12035,7 +12035,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-2.b">Question 2.b<a class="anchor-link" href="#Question-2.b">&#182;</a></h4><p>Each channel can be displayed by setting other channels' pixel values to zero.</p>
+<h3 id="Question-2.b">Question 2.b<a class="anchor-link" href="#Question-2.b">&#182;</a></h3><p>Each channel can be displayed by setting other channels' pixel values to zero.</p>
 <p>They are displayed as three subplots using below codes:</p>
 
 </div>
@@ -12143,7 +12143,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-3">Question 3<a class="anchor-link" href="#Question-3">&#182;</a></h3><p>We take the column average of each channel by excluding other channels' pixel values and setting the axis value of mean function to 0 for each channel. After that operation we end up with the plot below.</p>
+<h2 id="Question-3">Question 3<a class="anchor-link" href="#Question-3">&#182;</a></h2><p>We take the column average of each channel by excluding other channels' pixel values and setting the axis value of mean function to 0 for each channel. After that operation we end up with the plot below.</p>
 
 </div>
 </div>
@@ -12206,7 +12206,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-4">Question 4<a class="anchor-link" href="#Question-4">&#182;</a></h3><p>We substracted the above half from the below half and vice-versa.</p>
+<h2 id="Question-4">Question 4<a class="anchor-link" href="#Question-4">&#182;</a></h2><p>We substracted the above half from the below half and vice-versa.</p>
 <p>These two halves become the negative images of each other since (A-B) = -(B-A). So they don't give us any new information. However we thought that displaying both together might reveal some other aspect of the image that was harder to see from single half.</p>
 
 </div>
@@ -12311,7 +12311,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-5">Question 5<a class="anchor-link" href="#Question-5">&#182;</a></h3>
+<h2 id="Question-5">Question 5<a class="anchor-link" href="#Question-5">&#182;</a></h2><p>To perform median filtering, firstly three functions are defined, namely plot_channels, median_filter and median_filter_all. plot_channels returns the images of three channels of the original picture. median_filter returns the median filtered version of a given two dimensional matrix using the window sizes as an input. Lastly, median_filter_all returns the median filtered versions of all three channels of an image and their combination, that is the overall median filtered image.</p>
+
 </div>
 </div>
 </div>
@@ -12359,7 +12360,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-5.a">Question 5.a<a class="anchor-link" href="#Question-5.a">&#182;</a></h4>
+<h3 id="Question-5.a">Question 5.a<a class="anchor-link" href="#Question-5.a">&#182;</a></h3><p>By applying median filtering to the surface image with 5 to 5 windows the following images are obtained. They are clearly smoother and unclearer than the original versions.</p>
+
 </div>
 </div>
 </div>
@@ -12381,7 +12383,11 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_channels</span><span class="p">(</span><span class="n">R_5</span><span class="p">,</span> <span class="n">G_5</span><span class="p">,</span> <span class="n">B_5</span><span class="p">,</span> <span class="s2">&quot;Median Filtered&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pix_5</span><span class="p">,</span> <span class="n">R_5</span><span class="p">,</span> <span class="n">G_5</span><span class="p">,</span> <span class="n">B_5</span> <span class="o">=</span> <span class="n">median_filter_all</span><span class="p">(</span><span class="n">pix</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+
+<span class="n">plot_channels</span><span class="p">(</span><span class="n">R_5</span><span class="p">,</span> <span class="n">G_5</span><span class="p">,</span> <span class="n">B_5</span><span class="p">,</span> <span class="s2">&quot;Median Filtered&quot;</span><span class="p">)</span>
+<span class="n">pyplot</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">pix_5</span><span class="p">)</span>
+<span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12407,27 +12413,6 @@ div#notebook {
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pyplot</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">pix_5</span><span class="p">)</span>
-<span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
 <div class="output_area">
 
 <div class="prompt"></div>
@@ -12451,29 +12436,21 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-5.b">Question 5.b<a class="anchor-link" href="#Question-5.b">&#182;</a></h4>
+<h3 id="Question-5.b">Question 5.b<a class="anchor-link" href="#Question-5.b">&#182;</a></h3><p>Similarly, 11 to 11 window size median filtering is applied below. The smoothing effect is higher for the new window size, making most of the small details invisible.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pix_11</span><span class="p">,</span> <span class="n">R_11</span><span class="p">,</span> <span class="n">G_11</span><span class="p">,</span> <span class="n">B_11</span> <span class="o">=</span> <span class="n">median_filter_all</span><span class="p">(</span><span class="n">pix</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span>
-</pre></div>
 
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_channels</span><span class="p">(</span><span class="n">R_11</span><span class="p">,</span> <span class="n">G_11</span><span class="p">,</span> <span class="n">B_11</span><span class="p">,</span> <span class="s2">&quot;Median Filtered&quot;</span><span class="p">)</span>
+<span class="n">plot_channels</span><span class="p">(</span><span class="n">R_11</span><span class="p">,</span> <span class="n">G_11</span><span class="p">,</span> <span class="n">B_11</span><span class="p">,</span> <span class="s2">&quot;Median Filtered&quot;</span><span class="p">)</span>
+<span class="n">pyplot</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">pix_11</span><span class="p">)</span>
+<span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12499,27 +12476,6 @@ div#notebook {
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pyplot</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">pix_11</span><span class="p">)</span>
-<span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
 <div class="output_area">
 
 <div class="prompt"></div>
@@ -12543,29 +12499,21 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-5.c">Question 5.c<a class="anchor-link" href="#Question-5.c">&#182;</a></h4>
+<h3 id="Question-5.c">Question 5.c<a class="anchor-link" href="#Question-5.c">&#182;</a></h3><p>For 31 to 31 window size, median filtering makes the picture highly unclear and merely significant color changes can be seen.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pix_31</span><span class="p">,</span> <span class="n">R_31</span><span class="p">,</span> <span class="n">G_31</span><span class="p">,</span> <span class="n">B_31</span> <span class="o">=</span> <span class="n">median_filter_all</span><span class="p">(</span><span class="n">pix</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
-</pre></div>
 
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_channels</span><span class="p">(</span><span class="n">R_31</span><span class="p">,</span> <span class="n">G_31</span><span class="p">,</span> <span class="n">B_31</span><span class="p">,</span> <span class="s2">&quot;Median Filtered&quot;</span><span class="p">)</span>
+<span class="n">plot_channels</span><span class="p">(</span><span class="n">R_31</span><span class="p">,</span> <span class="n">G_31</span><span class="p">,</span> <span class="n">B_31</span><span class="p">,</span> <span class="s2">&quot;Median Filtered&quot;</span><span class="p">)</span>
+<span class="n">pyplot</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">pix_31</span><span class="p">)</span>
+<span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12591,27 +12539,6 @@ div#notebook {
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pyplot</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">pix_31</span><span class="p">)</span>
-<span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
 <div class="output_area">
 
 <div class="prompt"></div>
@@ -12630,6 +12557,25 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Higher window size results in smoother filtered pictures, since the sequence that provides the median value happens to change less and gives closer medians. Despite better noise reduction, the highly smoothed data leads to unclear pictures, which indicates a trade-off between noise reduction and clearence.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p><strong>NOTE:</strong> The source code is available at <a href="https://github.com/BU-IE-582/fall19-akinelden/blob/master/Project_Part1/Part1_A.ipynb">here</a></p>
+</blockquote>
+
+</div>
+</div>
 </div>
     </div>
   </div>
