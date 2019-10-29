@@ -1,6 +1,7 @@
-# IE423 Fall 2019 - Project Site - Group 9
+# IE423 Fall 2019 - Progress Journal
+### _Group 9_
 
-This is the IE423 project site of the Group 9.
+This is the IE423 Project site of the Group 9.
 
 **Group members:**
 
@@ -13,6 +14,6 @@ This is the IE423 project site of the Group 9.
 ## Project Part 1
 Click to see [project description](Part1/description.pdf)
 
-Jupyter notebooks:
+Jupyter Notebook reports are available at:
 *   [Part A](Part1/Part1_A)
-*   [Part B](Part1/)
+*   [Part B](Part1/Part1_B)
