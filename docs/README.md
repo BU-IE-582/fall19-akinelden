@@ -12,8 +12,8 @@ This is the IE423 Project site of the Group 9.
 *   [Kadir Pehlivan](https://github.com/kdrsss)
 
 ## Project Part 1
-Click to see [project description](Part1/description.pdf)
+Click to see [project description](Project_Part1/description.pdf)
 
 Jupyter Notebook reports are available at:
-*   [Part A](Part1/Part1_A)
-*   [Part B](Part1/Part1_B)
+*   [Part A](Project_Part1/Part1_A)
+*   [Part B](Project_Part1/Part1_B)
