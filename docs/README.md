@@ -17,3 +17,11 @@ Click to see [project description](Project_Part1/description.pdf)
 Jupyter Notebook reports are available at:
 *   [Part A](Project_Part1/Part1_A)
 *   [Part B](Project_Part1/Part1_B)
+
+## Project Part 2
+Click to see [project description](Project_Part2/description.pdf)
+
+Jupyter Notebook reports are available at:
+*   [Part A](Project_Part2/Part2_A)
+*   [Part B](Project_Part2/Part2_B)
+
