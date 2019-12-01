@@ -1,1 +1,2 @@
-*.ipynb filter=ipynb_exec_filter
+Part2_A.ipynb filter=ipynb_exec_filter
+Part2_B.ipynb filter=ipynb_exec_filter
