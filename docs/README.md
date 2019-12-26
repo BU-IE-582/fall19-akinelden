@@ -25,3 +25,8 @@ Jupyter Notebook reports are available at:
 *   [Part A](Project_Part2/Part2_A)
 *   [Part B](Project_Part2/Part2_B)
 
+## Project Part 3
+Click to see [project description](Project_Part3/description.pdf)
+
+Jupyter Notebook report is available at:
+*   [Part 3](Project_Part3/Part3)
