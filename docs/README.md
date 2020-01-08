@@ -30,3 +30,4 @@ Click to see [project description](Project_Part3/description.pdf)
 
 Jupyter Notebook report is available at:
 *   [Part 3](Project_Part3/Part3)
+*	[Appendix](Project_Part3/Appendix)
