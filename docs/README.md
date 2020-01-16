@@ -1,7 +1,7 @@
 # IE423 Fall 2019 - Progress Journal
 ### _Group 9_
 
-This is the IE423 Project site of the Group 9.
+This is the IE423 Project site of the Group 9. The main topic of the project is **image processing**.
 
 **Group members:**
 
